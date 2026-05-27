@@ -44,3 +44,15 @@ greetuser("Alice");
 let newarray = [1,2,3,4,5];
 let squarearray = newarray.map((num) => num*num);
 console.log(squarearray);
+
+//filter on array
+// filter or create a new array with all elements
+ let evenNumbers = [1,2,3,4,5,6];
+ let filteredEvenNumbers = evenNumbers.filter(num => num%2===0);
+ console.log(filteredEvenNumbers);
+
+ let sum = [2,4,6,8,10];
+ let total = sum.reduce((x,y) => x+y ,0)
+ console.log(total);
+
+ 
